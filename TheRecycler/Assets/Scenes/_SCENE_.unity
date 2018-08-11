@@ -141,7 +141,7 @@ Transform:
   - {fileID: 1330701851}
   - {fileID: 941938967}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &40596436
 GameObject:
@@ -231,7 +231,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4096810020934168, guid: ce6dcb8d9c01e1a4291072c2c9152433, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 1.48
+      value: -0.79
       objectReference: {fileID: 0}
     - target: {fileID: 4096810020934168, guid: ce6dcb8d9c01e1a4291072c2c9152433, type: 2}
       propertyPath: m_LocalPosition.z
@@ -255,11 +255,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4096810020934168, guid: ce6dcb8d9c01e1a4291072c2c9152433, type: 2}
       propertyPath: m_RootOrder
-      value: 11
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1667724049151542, guid: ce6dcb8d9c01e1a4291072c2c9152433, type: 2}
       propertyPath: m_Name
       value: PureTrashBag (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1667724049151542, guid: ce6dcb8d9c01e1a4291072c2c9152433, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce6dcb8d9c01e1a4291072c2c9152433, type: 2}
@@ -302,6 +306,10 @@ Prefab:
     - target: {fileID: 4096810020934168, guid: ce6dcb8d9c01e1a4291072c2c9152433, type: 2}
       propertyPath: m_RootOrder
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1667724049151542, guid: ce6dcb8d9c01e1a4291072c2c9152433, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce6dcb8d9c01e1a4291072c2c9152433, type: 2}
@@ -348,6 +356,10 @@ Prefab:
     - target: {fileID: 1582596666077826, guid: 1cd962a975ec531458ae6e176630017c, type: 2}
       propertyPath: m_Name
       value: MetalTrashBag (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1582596666077826, guid: 1cd962a975ec531458ae6e176630017c, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1cd962a975ec531458ae6e176630017c, type: 2}
@@ -467,6 +479,10 @@ Prefab:
     - target: {fileID: 4993980078841058, guid: eb3e9e3574c322b4ebffea58901dea0e, type: 2}
       propertyPath: m_RootOrder
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1602805444258222, guid: eb3e9e3574c322b4ebffea58901dea0e, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb3e9e3574c322b4ebffea58901dea0e, type: 2}
@@ -618,6 +634,10 @@ Prefab:
       propertyPath: m_Name
       value: PaperTrashBag (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1602805444258222, guid: eb3e9e3574c322b4ebffea58901dea0e, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb3e9e3574c322b4ebffea58901dea0e, type: 2}
   m_IsPrefabAsset: 0
@@ -688,7 +708,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4833195357137108, guid: 1cd962a975ec531458ae6e176630017c, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 2.21
+      value: 0.33
       objectReference: {fileID: 0}
     - target: {fileID: 4833195357137108, guid: 1cd962a975ec531458ae6e176630017c, type: 2}
       propertyPath: m_LocalPosition.z
@@ -717,6 +737,10 @@ Prefab:
     - target: {fileID: 1582596666077826, guid: 1cd962a975ec531458ae6e176630017c, type: 2}
       propertyPath: m_Name
       value: MetalTrashBag (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1582596666077826, guid: 1cd962a975ec531458ae6e176630017c, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1cd962a975ec531458ae6e176630017c, type: 2}
@@ -758,11 +782,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4096810020934168, guid: ce6dcb8d9c01e1a4291072c2c9152433, type: 2}
       propertyPath: m_RootOrder
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1667724049151542, guid: ce6dcb8d9c01e1a4291072c2c9152433, type: 2}
       propertyPath: m_Name
       value: PureTrashBag (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1667724049151542, guid: ce6dcb8d9c01e1a4291072c2c9152433, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce6dcb8d9c01e1a4291072c2c9152433, type: 2}
@@ -806,6 +834,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 1258864766491228, guid: 6870f4d378a1e684eb5cd159c230bdbd, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6870f4d378a1e684eb5cd159c230bdbd, type: 2}
   m_IsPrefabAsset: 0
@@ -848,6 +880,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 1582596666077826, guid: 1cd962a975ec531458ae6e176630017c, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1cd962a975ec531458ae6e176630017c, type: 2}
   m_IsPrefabAsset: 0
@@ -864,7 +900,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4096810020934168, guid: ce6dcb8d9c01e1a4291072c2c9152433, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 1.48
+      value: 0.53
       objectReference: {fileID: 0}
     - target: {fileID: 4096810020934168, guid: ce6dcb8d9c01e1a4291072c2c9152433, type: 2}
       propertyPath: m_LocalPosition.z
@@ -888,11 +924,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4096810020934168, guid: ce6dcb8d9c01e1a4291072c2c9152433, type: 2}
       propertyPath: m_RootOrder
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 1667724049151542, guid: ce6dcb8d9c01e1a4291072c2c9152433, type: 2}
       propertyPath: m_Name
       value: PureTrashBag (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1667724049151542, guid: ce6dcb8d9c01e1a4291072c2c9152433, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce6dcb8d9c01e1a4291072c2c9152433, type: 2}
