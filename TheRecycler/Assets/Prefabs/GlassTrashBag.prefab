@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4289888094662136}
   - component: {fileID: 61174716458089570}
   - component: {fileID: 50934682936052696}
+  - component: {fileID: 114543091676837138}
   m_Layer: 0
   m_Name: GlassTrashBag
   m_TagString: TrashBags
@@ -146,6 +147,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.95, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &114543091676837138
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1258864766491228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ab4f6765e22a134c9a5484e5bf33915, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &212166066395632300
 SpriteRenderer:
   m_ObjectHideFlags: 1

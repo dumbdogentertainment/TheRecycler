@@ -37,4 +37,9 @@ public class GameController : MonoBehaviour
             .ToList()
             .ForEach(Destroy);
     }
+
+    public void ModifyPowerBy(float modifyAmount)
+    {
+        this.PowerBar.fillAmount += modifyAmount * 0.05f;
+    }
 }

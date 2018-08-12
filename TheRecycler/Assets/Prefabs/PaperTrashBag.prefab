@@ -37,6 +37,7 @@ GameObject:
   - component: {fileID: 4993980078841058}
   - component: {fileID: 61597298823444854}
   - component: {fileID: 50616424734530808}
+  - component: {fileID: 114680797410102226}
   m_Layer: 0
   m_Name: PaperTrashBag
   m_TagString: TrashBags
@@ -146,6 +147,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.95, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &114680797410102226
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1602805444258222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ab4f6765e22a134c9a5484e5bf33915, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &212853520025799096
 SpriteRenderer:
   m_ObjectHideFlags: 1

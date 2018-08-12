@@ -37,7 +37,7 @@ public class Spawner : MonoBehaviour
             return;
         }
 
-        var randomIndex = Random.Range(0, this.TrashBagPrefabs.Length - 1);
+        var randomIndex = Random.Range(0, this.TrashBagPrefabs.Length);
         Instantiate(this.TrashBagPrefabs[randomIndex], this.transform.position, Quaternion.identity, this.GameBoard.transform);
     }
 }
