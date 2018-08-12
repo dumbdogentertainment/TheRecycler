@@ -12,10 +12,13 @@ public class Spawner : MonoBehaviour
 
     private float spawnCooldownRemaining;
 
+    public float minSpawnInterval = 2f;
+    public float maxSpawnInterval = 5f;
+
     void Start()
     {
         this.spawnerCollider = GetComponent<BoxCollider2D>();
-        this.spawnCooldownRemaining = Random.Range(0.15f, 0.75f);
+        this.spawnCooldownRemaining = 0f;
     }
 
     // Update is called once per frame
@@ -23,10 +26,15 @@ public class Spawner : MonoBehaviour
     {
         this.spawnCooldownRemaining -= Time.deltaTime;
 
+        this.minSpawnInterval = this.minSpawnInterval < 0.15f ? 0.15f : this.minSpawnInterval;
+        this.maxSpawnInterval = this.maxSpawnInterval < 0.25f ? 0.25f : this.maxSpawnInterval;
+
         if (this.spawnCooldownRemaining <= 0f)
         {
             SpawnTrashBag();
-            this.spawnCooldownRemaining = Random.Range(0.15f, 0.75f);
+            this.spawnCooldownRemaining = Random.Range(
+                this.minSpawnInterval,
+                this.maxSpawnInterval);
         }
     }
 

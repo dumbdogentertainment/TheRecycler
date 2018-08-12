@@ -8,13 +8,7 @@ public class TrashBag : MonoBehaviour
 
     void Start()
     {
-        Debug.Log(this.name);
         this.trulyTrash = this.name.Contains("PureTrashBag");
-    }
-
-    void Update()
-    {
-
     }
 
     private void OnMouseOver()
