@@ -52,3 +52,6 @@ TagManager:
   - name: TileForeground
     uniqueID: 395060655
     locked: 0
+  - name: GameOver
+    uniqueID: 2373683239
+    locked: 0
